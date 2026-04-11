@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek Nath - 3D Portfolio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- 3D Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- UI Overlay container -->
+    <div id="app">
+      <nav class="navbar glass-panel">
+        <div class="logo">AN.</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section id="hero" class="hero-section">
+        <div class="hero-content glass-panel fade-in">
+          <p class="greeting">Hi, my name is</p>
+          <h1 class="name">Abhishek Nath.</h1>
+          <h2 class="tagline">I build things for the future.</h2>
+          <p class="description">
+            I'm a Data Science student and Developer exploring Artificial Intelligence and Machine Learning. 
+            I love finding innovative solutions using modern technology.
+          </p>
+          <a href="#projects" class="btn primary-btn">Check out my work</a>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="section-container glass-panel fade-in">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-content">
+            <div class="about-text">
+              <p>Hello! I'm Abhishek Nath, a highly motivated and detail-oriented professional with a passion for building innovative solutions using Data Science and Machine Learning.</p>
+              <p>My journey into AI started with a deep curiosity about how data can solve real-world problems. Today, I'm actively exploring advanced analytics and deep learning architectures to push boundaries.</p>
+            </div>
+            <div class="about-image">
+              <img src="/assets/profile.jpg" alt="Abhishek Nath" class="profile-pic" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills-section">
+        <div class="section-container glass-panel fade-in">
+          <h2 class="section-title">Tech Toolkit</h2>
+          <p>Technologies I’ve been working with recently:</p>
+          <div id="skills-grid" class="skills-grid">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <div class="section-container fade-in">
+          <h2 class="section-title">Featured Projects</h2>
+          <div id="projects-grid" class="projects-grid">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="section-container glass-panel fade-in">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="contact-desc">Although I'm currently focused on my studies and expanding my ML knowledge, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+          
+          <div class="contact-links" id="contact-links">
+            <!-- Injected by JS -->
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>&copy; 2026 Abhishek Nath. All rights reserved.</p>
+      </footer>
+    </div>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
