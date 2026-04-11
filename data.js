@@ -20,28 +20,28 @@ export const projects = [
   {
     title: 'Linear Regression House Pricing',
     description: 'Linear Regression model for house price prediction. Explores basic predictive modeling and data wrangling.',
-    image: '/assets/linear_regression.png',
+    image: './assets/linear_regression.png',
     tech: ['Python', 'scikit-learn', 'Pandas'],
     github: 'https://github.com/Abhisheknath25/PRODIGY_ML_01'
   },
   {
     title: 'Customer Segmentation',
     description: 'Segment Retail Customers Using K-Means. Applies clustering algorithms to discover hidden patterns in retail data.',
-    image: '/assets/customer_segmentation.png',
+    image: './assets/customer_segmentation.png',
     tech: ['Python', 'K-Means', 'NumPy'],
     github: 'https://github.com/Abhisheknath25/PRODIGY_ML_02'
   },
   {
     title: 'Cat vs Dog Classifier',
     description: 'Support Vector Machine (SVM) combined with OpenCV to accurately classify images of cats and dogs.',
-    image: '/assets/cat_dog_classifier.png',
+    image: './assets/cat_dog_classifier.png',
     tech: ['Python', 'OpenCV', 'SVM'],
     github: 'https://github.com/Abhisheknath25/PRODIGY_ML_03'
   },
   {
     title: 'Hand Gesture Recognition',
     description: 'A deep learning-based hand gesture recognition system for intuitive human-computer interaction.',
-    image: '/assets/hand_gesture.png',
+    image: './assets/hand_gesture.png',
     tech: ['Python', 'TensorFlow', 'Deep Learning'],
     github: 'https://github.com/Abhisheknath25/PRODIGY_ML_04'
   }
