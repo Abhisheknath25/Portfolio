@@ -32,7 +32,7 @@ export function initScene() {
     size: 0.15,
     color: '#64ffda',
     transparent: true,
-    opacity: 0.8,
+    opacity: 0.2,
   });
 
   const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
@@ -45,7 +45,7 @@ export function initScene() {
     color: '#64ffda', 
     wireframe: true,
     transparent: true,
-    opacity: 0.4
+    opacity: 0.05
   });
   const object = new THREE.Mesh(geometry, material);
   scene.add(object);
