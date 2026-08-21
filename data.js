@@ -14,6 +14,10 @@ export const skills = [
   { name: 'Tableau', logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png' },
   { name: 'SQL', logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png' },
   { name: 'MongoDB', logoUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg' },
+  { name: 'PyTorch', logoUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg' },
+  { name: 'Keras', logoUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original.svg' },
+  { name: 'Jupyter', logoUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg' },
+  { name: 'Git', logoUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg' },
 ];
 
 export const projects = [
