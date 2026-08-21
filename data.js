@@ -8,7 +8,7 @@ export const skills = [
   { name: 'scikit-learn', logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg' },
   { name: 'Pandas', logoUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg' },
   { name: 'NumPy', logoUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg' },
-  { name: 'Matplotlib', logoUrl: 'https://upload.wikimedia.org/wikipedia/en/5/56/Matplotlib_logo.svg' },
+  { name: 'Matplotlib', logoUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg' },
   { name: 'Seaborn', logoUrl: 'https://seaborn.pydata.org/_images/logo-mark-lightbg.svg' },
   { name: 'Power BI', logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg' },
   { name: 'Tableau', logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png' },
