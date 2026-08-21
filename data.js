@@ -44,6 +44,41 @@ export const projects = [
     image: './assets/hand_gesture.png',
     tech: ['Python', 'TensorFlow', 'Deep Learning'],
     github: 'https://github.com/Abhisheknath25/PRODIGY_ML_04'
+  },
+  {
+    title: 'CNN Digit Recognizer',
+    description: 'Convolutional Neural Network model for recognizing handwritten digits using deep learning.',
+    image: './assets/cnn_digit.jpg',
+    tech: ['Python', 'TensorFlow', 'Deep Learning'],
+    github: 'https://github.com/Abhisheknath25/CNN-Digit-Recognizer'
+  },
+  {
+    title: 'NLP Emotion Analysis',
+    description: 'Natural Language Processing model to analyze emotions and sentiment from text data.',
+    image: './assets/nlp_emotion.jpg',
+    tech: ['Python', 'NLP', 'Machine Learning'],
+    github: 'https://github.com/Abhisheknath25/NLP-emotion-analysis'
+  },
+  {
+    title: 'Artificial Neural Networks',
+    description: 'Deep Learning project exploring Artificial Neural Networks (ANN) architecture.',
+    image: './assets/ann_project.jpg',
+    tech: ['Python', 'Deep Learning', 'ANN'],
+    github: 'https://github.com/Abhisheknath25/Ann-Project'
+  },
+  {
+    title: 'Movie Recommendation System',
+    description: 'Machine learning based system to recommend movies to users based on preferences and ratings.',
+    image: './assets/movie_recommendation.jpg',
+    tech: ['Python', 'Machine Learning'],
+    github: 'https://github.com/Abhisheknath25/Movie-Recommendation-System'
+  },
+  {
+    title: 'Fraud Detection System',
+    description: 'Anomaly detection model for identifying fraudulent transactions in financial data.',
+    image: './assets/fraud_detection.jpg',
+    tech: ['Python', 'Machine Learning', 'Anomaly Detection'],
+    github: 'https://github.com/Abhisheknath25/-fraud-detection'
   }
 ];
 
